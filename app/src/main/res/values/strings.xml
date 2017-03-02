@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">第三方登录和分享</string>
+    <string name="app_describe">这是一个可以替代友盟分享第三方登录的库，兼容到7.0系统，本库是我上线项目中使用的，稳定精简。
+        由于友盟之前经常发生无故崩溃，所以本人自己写了一套分享和登录框架，分享功能包括微信、QQ、微博平台，登录功能只有微信登录，
+        项目易于扩展，欢迎各位大神扩展发现bug，记得star哦</string>
+
+    <string name="tencent_qq">QQ</string>
+    <string name="tencent_qq_zone">QQ空间</string>
+    <string name="tencent_wechat">微信</string>
+    <string name="tencent_wechat_circle">微信朋友圈</string>
+    <string name="sina">新浪微博</string>
+
+</resources>
