@@ -15,7 +15,7 @@ public class ShareModel implements Serializable {
     //分享的类型
     public ShareTypeEnum shareTypeEnum = ShareTypeEnum.WEBPAGE;
 
-    public String shareUrl;//网页
+    public String shareUrl;//网页Url或其他的资源Url
     public String shareTitle;//最长30个字符
     public String shareContent;//最长50个字
     public String mediaUrl;//媒体url
