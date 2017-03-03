@@ -1,7 +1,28 @@
 # ShareAndLogin
-一个轻量、易扩展的第三方登录分享库，比友盟分享登录更稳定，兼容Android7.0，目前集成了微信、QQ、新浪微博3个平台的分享，以及微信登录
 [![](https://jitpack.io/v/hoofee/ShareAndLogin.svg)](https://jitpack.io/#hoofee/ShareAndLogin)
+
+一个轻量、易扩展的第三方登录分享库，比友盟分享登录更稳定，兼容Android7.0，目前集成了微信、QQ、新浪微博3个平台的分享，以及微信登录
  
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
+
+    maven
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+    //gradle
+	dependencies {
+	        compile 'com.github.hoofee:ShareAndLogin:1.0.0'
+	}
+
  使用步骤：
  1：修改主module的build.gradle文件，在android->defaultConfig下增加
  manifestPlaceholders = [
@@ -15,6 +36,7 @@
                 SINA_WEIBO_APPKEY      : "",
                 SINA_WEIBO_APPKEY_VALUE: "",
         ]
+
 2. 在 manifest 清单文件中增加：
         <!-- QQ开发者配置 -->
         <meta-data
